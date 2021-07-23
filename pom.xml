@@ -18,7 +18,7 @@
     <dockerImageName>quickstarter/openshift-kie-springboot</dockerImageName>
     <failOnMissingWebXml>false</failOnMissingWebXml>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <version.annotations>2.0.1.Final</version.annotations>
+    <version.annotations>1.3.5</version.annotations>
     <version.fabric8.plugin>4.2.0</version.fabric8.plugin>
     <version.fabric8.docker-plugin>0.30.0</version.fabric8.docker-plugin>
     <surefire.forkCount>1</surefire.forkCount>
@@ -174,8 +174,8 @@
       </dependency>
 
       <dependency>
-        <groupId>org.jboss.spec.javax.annotation</groupId>
-        <artifactId>jboss-annotations-api_1.3_spec</artifactId>
+        <groupId>jakarta.annotation</groupId>
+        <artifactId>jakarta.annotation-api</artifactId>
         <version>${version.annotations}</version>
         <scope>compile</scope>
       </dependency>
