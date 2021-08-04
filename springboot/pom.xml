@@ -60,10 +60,6 @@
       <artifactId>spring-boot-starter-web</artifactId>
       <exclusions>
         <exclusion>
-          <groupId>org.glassfish</groupId>
-          <artifactId>jakarta.el</artifactId>
-        </exclusion>
-        <exclusion>
           <groupId>commons-logging</groupId>
           <artifactId>commons-logging</artifactId>
         </exclusion>
@@ -84,10 +80,6 @@
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-validation</artifactId>
       <exclusions>
-        <exclusion>
-          <groupId>org.glassfish</groupId>
-          <artifactId>jakarta.el</artifactId>
-        </exclusion>
         <exclusion>
           <groupId>commons-logging</groupId>
           <artifactId>commons-logging</artifactId>
